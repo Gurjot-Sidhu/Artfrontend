@@ -8,6 +8,8 @@ export class NewArtworkForm extends Component {
         community_id: this.props.id
     }
 
+    
+
     handleAllInputs = (e)=>{
         this.setState({
             [e.target.name]: e.target.value
@@ -18,22 +20,24 @@ export class NewArtworkForm extends Component {
         e.preventDefault()
         this.props.addNewArtwork(this.state)
     }
+   
 
     render() {
         return (
             <div>
                 <div>
-                    <label>
-                        Add to this community 
-                    </label>
+                    <button>
+                        Add to this community
+                    </button>
                     <form className="NewArtworkForm">
-                    <label>Name:</label>
+                    <label>Name</label>
                     <input 
                         type="text" 
                         name="name" 
                         placeholder="Art name" 
                         onChange={this.handleAllInputs}
                     />
+                    <label>Image</label>
                     <input
                         type="text"
                         name="image"

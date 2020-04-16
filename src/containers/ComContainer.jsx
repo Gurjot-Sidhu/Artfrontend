@@ -18,8 +18,11 @@ export class ComContainer extends Component {
         })
         
         return (
-            <div>
-                {arrayOfComponents}
+            <div className="CommunityContainer">
+                {arrayOfComponents.map((singleComp)=>{
+                    return <li className="SingleCommunity"> {singleComp}</li>
+                })}
+                
             </div>
         )
     }

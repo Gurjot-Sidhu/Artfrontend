@@ -38,9 +38,9 @@ export class App extends React.Component {
 
   renderForm = (routerProps) =>{
     if(routerProps.location.pathname === "/login"){
-      return <NewUserForm formName="Login Form" handleSubmit={this.handleLoginSubmit}/>
+      return <NewUserForm formName="Login" handleSubmit={this.handleLoginSubmit}/>
     }else if (routerProps.location.pathname === "/register"){
-      return <NewUserForm formName="Register Form" handleSubmit={this.handleRegisterSubmit}/>
+      return <NewUserForm formName="Sign up" handleSubmit={this.handleRegisterSubmit}/>
     }
   }
 
@@ -193,7 +193,13 @@ export class App extends React.Component {
             <Route path="/login" render={this.renderForm}/>
             <Route path="/register" render={this.renderForm}/>
             <Route path="/communities" render={this.renderCommunities}/>
-            <Route exact path="/" render={() => <h1>Home</h1>}/>
+            <Route exact path="/" render={() => 
+            <>
+            <h1>Welcome to Artcom</h1>
+            <h2>"Where there is something for everyone"</h2>
+            <h3>Here at Artcom,our goal was to create a place where people can share artwork in communities. You can join as many communities as you would like and post images on their walls. If you dont like something posted anymore you can go of--- you can just delete it.</h3>
+            </>
+            }/>
         </Switch>
       </div>
     )

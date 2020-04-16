@@ -25,15 +25,19 @@ export class Community extends Component {
         })
         return(
             <div className="Community">
-               <div onClick={this.handleClick}> {this.props.community.name} </div>
                 <div>
-                {this.state.display 
-                ? <div>
-                        <div>{arrayOfArtwork}</div> 
-                        <div> <NewArtworkForm id={this.props.community.id} addNewArtwork={this.props.addNewArtwork}/></div> 
+                    {this.state.display ? <button onClick={this.handleClick}> Hide </button>
+                    : <button onClick={this.handleClick}> View </button> 
+                    } 
+                    {this.props.community.name} 
                 </div>
-                : <div></div>
-                 }
+                <div className="ArtCont">
+                    {this.state.display 
+                    ? <>
+                    <div className="AllArt">{arrayOfArtwork}</div> 
+                    <div className="ComForm"> <NewArtworkForm id={this.props.community.id} addNewArtwork={this.props.addNewArtwork}/></div> </>
+                    : <></>
+                    }
                 </div>
             </div>
         )
