@@ -1,4 +1,4 @@
-# Artcom # Goals [![HitCount](http://hits.dwyl.com/Gurjot-Sidhu/Artfrontend.svg)](http://hits.dwyl.com/Gurjot-Sidhu/Artfrontend)
+# Artcom [![HitCount](http://hits.dwyl.com/Gurjot-Sidhu/Artfrontend.svg)](http://hits.dwyl.com/Gurjot-Sidhu/Artfrontend)
 
 
 A community-based art sharing application designed to help you share work with other people
