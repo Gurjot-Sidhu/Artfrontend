@@ -1,4 +1,5 @@
-# Artcom
+# Artcom # Goals [![HitCount](http://hits.dwyl.com/Gurjot-Sidhu/Artfrontend.svg)](http://hits.dwyl.com/Gurjot-Sidhu/Artfrontend)
+
 
 A community-based art sharing application designed to help you share work with other people
 
@@ -27,6 +28,11 @@ Standard
 - The user can browse and inspect artwork in any community.
 
 ## Code Example
+Render Community Code
+
+<img width="324" alt="Screen Shot 2020-06-02 at 3 55 36 PM" src="https://user-images.githubusercontent.com/9657307/83563772-9a394080-a4e9-11ea-8a53-2ba503237bbe.png">
+
+In this snippet above, this function's purpose is to render communites to the page when it recieves props from the url. The if statement check to see whether or not their is a token within the state of app.js. This token exists upon successful login. It will then create a component with props of user,token,commmunities and 2 methods(addNewArtowk and deleteArtwork). If there is no token because of a failed login attempt or if you logout you will be redirected to the login page. 
 
 ## How to use
 
