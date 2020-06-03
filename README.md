@@ -12,7 +12,8 @@ Build failing
 ## Code Style
 Standard
 
-## Screenshots
+## Demo video
+[![Demo](http://img.youtube.com/vi/A2RwUDa0bH8/0.jpg)](http://www.youtube.com/watch?v=A2RwUDa0bH8 "Artcom Demo")
 
 ## Tech/Framework used
 **Built with**
