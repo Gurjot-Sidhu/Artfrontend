@@ -70,6 +70,8 @@ li.SingleCommunity{
   flex-grow: 1;
   border-style: groove;
   border-radius: 50px;
+  background-color:rgba(255, 255,255, 0.7)
+  
 }
 
 li.SingleCommunity:hover{
