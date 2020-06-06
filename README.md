@@ -25,9 +25,9 @@ I created this app because I am part of a few groupchats with friends and receiv
 
 ## Tech/Framework used
 **Built with**
--Javascript
--React
--Rails
+- Javascript
+- React
+- Rails
 
 ## Features
 - I added JWT to authenticate old accounts and create new accounts with secure logins.
