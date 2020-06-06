@@ -15,6 +15,13 @@ I created this app because I am part of a few groupchats with friends and receiv
 [![Demo](http://img.youtube.com/vi/A2RwUDa0bH8/0.jpg)](http://www.youtube.com/watch?v=A2RwUDa0bH8 "Artcom Demo")
 
 ## Screenshots
+<img width="640" height="480" alt="Screen Shot 2020-06-06 at 1 45 03 PM" src="https://user-images.githubusercontent.com/9657307/83950967-7a14c480-a7fc-11ea-8ee2-a07f71a1bed3.png">
+
+<img width="640" height="480" alt="Screen Shot 2020-06-06 at 1 45 19 PM" src="https://user-images.githubusercontent.com/9657307/83950969-7b45f180-a7fc-11ea-946d-121772d8797c.png">
+
+<img width="640" height="480" alt="Screen Shot 2020-06-06 at 1 48 05 PM" src="https://user-images.githubusercontent.com/9657307/83950971-7bde8800-a7fc-11ea-84de-1e57daa210b6.png">
+
+<img width="640" height="480" alt="Screen Shot 2020-06-06 at 1 48 17 PM" src="https://user-images.githubusercontent.com/9657307/83950973-7d0fb500-a7fc-11ea-884f-93691bdf4012.png">
 
 ## Tech/Framework used
 **Built with**
