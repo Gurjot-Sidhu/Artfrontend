@@ -197,7 +197,7 @@ export class App extends React.Component {
             <>
             <h1>Welcome to Artcom</h1>
             <h2>"Where there is something for everyone"</h2>
-            <h3>Here at Artcom,our goal was to create a place where people can share artwork in communities. You can join as many communities as you would like and post images on their walls. If you dont like something posted anymore you can go of--- you can just delete it.</h3>
+            <h3>Here at Artcom,our goal was to create a place where people can share artwork in communities. You can join as many communities as you would like and post images on their walls. If you dont like something you posted anymore you can just delete it.</h3>
             </>
             }/>
         </Switch>
